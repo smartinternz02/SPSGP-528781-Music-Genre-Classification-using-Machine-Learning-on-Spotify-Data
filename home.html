@@ -1,0 +1,17 @@
+<img src="static\logo.jpg" alt="img" align="center">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<link href="static\sty.css" rel="stylesheet">
+<body background="static\spo.png" >
+<ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab"  role="tab" aria-selected="true" href="{{ url_for('home') }}">Home</a>
+    </li>
+    
+
+
+<li class="nav-item" role="presentation">
+  <a href="{{ url_for('prediction') }}" class="nav-link rounded-5" id="profile-tab2"  role="tab" aria-selected="false" >Predict</a>
+</li>
+</ul>
+</body>
